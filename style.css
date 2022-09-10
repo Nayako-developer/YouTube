@@ -23,9 +23,11 @@ img{
 }
 p{
   padding: 15px;
+  width:80%;
   margin: 0 20px;
   background-color: #fff;
   color: blue;
+  boder-radius: 15px;
   box-shadow: 1,1,1, black;
 }
 .gradeVideos{
