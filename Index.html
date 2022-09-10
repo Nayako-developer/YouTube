@@ -20,11 +20,11 @@
       <img src="iasft.png" alt="logo" />
       
     <script type="text/javascript" charset="utf-8">
-     var nome = window.prompt("Digite seu nome:");
+     var nome = window.prompt("Digite uma frase para aparecer no site");
       var e_pai = document.body;
       var element = document.createElement('p');
     e_pai.appendChild(element);
-    var conteudo = document.createTextNode(`Olá ${nome} seja bem vido!`);
+    var conteudo = document.createTextNode(`${nome}`);
     element.appendChild(conteudo);
     </script>
     </div>
